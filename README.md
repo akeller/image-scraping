@@ -2,7 +2,7 @@
 
 Original project: https://github.com/pevers/images-scraper
 
-This a simple way to scrape Google/Bing images using Nightmare and not be dependent on any API. The headless browser will just behave like a normal person, scroll and click. A rate limiter is implemented and can be used to prevent bans. Only the Google scraper uses a headless browser, the other providers use custom requests to generate the results.
+I needed a way to supplement my crowding source fruit pictures to make a dataset "large" enough to attempt to create a deep learning model in Caffe using the Intel Deep Learning SDK. This scraper helped me pull metadata of images based on the keyword. The results direction shows the various fruit terms I used. I pulled images 10 at a time to manually check the image quality and prevent as few duplicates as possible. 
 
 # Installation
 ```npm install images-scraper```
