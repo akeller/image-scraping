@@ -1,4 +1,7 @@
-# images-scraper
+# Image Scraping For Fruit
+
+Original project: https://github.com/pevers/images-scraper
+
 This a simple way to scrape Google/Bing images using Nightmare and not be dependent on any API. The headless browser will just behave like a normal person, scroll and click. A rate limiter is implemented and can be used to prevent bans. Only the Google scraper uses a headless browser, the other providers use custom requests to generate the results.
 
 # Installation
